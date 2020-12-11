@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* nav Bar */
+#divNav {
+  
+  width: 100%;
+  height:70px;
+  background: rgb(0,0,101);
+background: linear-gradient(90deg, #002D62 15%,#0047AB 49%,#234471 90%);
+  overflow: hidden;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  
+ 
+}
+
+#ulNav {
+  list-style: none;
+  float: left;
+  
+}
+#ulNav li{
+ 
+  justify-content: left;
+  text-decoration: none;
+  /* padding: 0px 20px; */
+  margin-left: 80px;
+  margin-top: 10px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 18px;
+  
+  /* transition: all 0.3s ease 0s; */
+}
+#ulNav li a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.3s ease 0s;
+}
+#ulNav li a:hover{
+color: #CCB066;
+font-size: 25px;
+font-weight: bolder;
+letter-spacing: 3px;
+
+}
+#logo{
+    height: 60px;
+    float: left;
+    margin: 10px;
+    margin-left: 30px;
+}
+/* end of nav bar */
+/* start of landing Page */
+#landingPage{
+    height:88.8vh;
+    width: 100%;
+   background-image: url("https://wallpaperaccess.com/full/2263178.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+  
+   
+}
+
+
+/* start of qoute */
+/* start top style */
+#top{
+    height: 88.8vh;
+   background-image: url("/res/pics/daruisCover.jpg");
+}
+.mainPanel{
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width:100%;
+}
+.topContent{
+    background-color: rgba(255,255, 255, 0.4);
+    height: 75vh;
+    width: 90%;
+    position: relative;
+    top:8vh;
+    left:10vh;
+    color: #DEDEDE;
+}
+.video{
+    position: relative;
+    top:20%;
+    right: 5%;
+   float: right;
+   
+    
+   
+    
+}
+.panal{
+  position: relative;
+    height:90%;
+    width:25%;
+    border-radius: 5px;
+    
+    left:20px;
+    top:5%;
+    background-color:rgba(0, 60, 142,0.6);
+}
+.panal h2{
+    position: relative;
+    top:15px;
+    text-align: center;
+    letter-spacing: 4px;;
+}
+
+/* end top style */
+.labels{
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 50px;
+  font-size: larger;
+}
+.break{
+  height: 50vh;
+  width: 100%;
+  background-color: white;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/League_of_Legends_Wild_Rift_logo.png/1200px-League_of_Legends_Wild_Rift_logo.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#topJax{
+  height: 100vh;
+  background-image: url('/res/pics/jax.jpg');
+}
+#akali{
+  background-image: url('/res/pics/akali.jpg');
+  height: 88.8vh;
+}
+#yone{
+  background-image: url('/res/pics/yone.jpg');
+  height: 100vh;
+}
+#jhin{
+  background-image: url('/res/pics/jhin.jpg');
+  height: 88.8vh;
+}
+#ezreal{
+  background-image: url('/res/pics/ezreal.jpg');
+  height: 100vh;
+}
+#morgana{
+  background-image: url('/res/pics/morgana.jpg');
+  height: 88.8vh;
+}
+#senna{
+  background-image: url('/res/pics/senna.png');
+  height: 100vh;
+}
+#kayn{
+  background-image: url('/res/pics/kayn.jpg');
+  height: 100vh;
+}
+#amumu{
+  background-image: url('/res/pics/amumu.jpg');
+  height: 88.8vh;
+}
+#contact{
+  /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/League_of_Legends_Wild_Rift_logo.png/1200px-League_of_Legends_Wild_Rift_logo.png"); */
+  height: 88.8vh;
+  background-size: contain;
+  background-position: center;
+ 
+}
+#contactContent{
+  background-color: rgba(199, 156, 56,0.5);
+  color: #1E457A;
+  text-align: center;
+  font-size: 30px;
+  top:10px
+}
+#textArea{
+  width: 90%;
+}
+#btn{
+  width: 45%;
+  height:50px;
+  border-radius: 5px;
+  border: none;
+  background-color:#1E457A ;
+  color: white;
+  font-size: 24px;
+  transition: all 0.3s ease 0s;
+}
+#btn:hover{
+  color:#1E457A;
+  background-color: white;
+  font-weight: bolder;
+}
