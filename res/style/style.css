@@ -70,7 +70,7 @@ letter-spacing: 3px;
 /* start top style */
 #top{
     height: 88.8vh;
-   background-image: url("/res/pics/daruisCover.jpg");
+   background-image: url("./res/pics/daruisCover.jpg");
 }
 .mainPanel{
   background-repeat: no-repeat;
