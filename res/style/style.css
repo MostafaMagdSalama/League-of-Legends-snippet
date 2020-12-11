@@ -70,7 +70,7 @@ letter-spacing: 3px;
 /* start top style */
 #top{
     height: 88.8vh;
-   background-image: url("./res/pics/daruisCover.jpg");
+   background-image: url("../pics/daruisCover.jpg");
 }
 .mainPanel{
   background-repeat: no-repeat;
@@ -133,38 +133,38 @@ background-position: center;
 
 #topJax{
   height: 100vh;
-  background-image: url('/res/pics/jax.jpg');
+  background-image: url('../pics/jax.jpg');
 }
 #akali{
-  background-image: url('/res/pics/akali.jpg');
+  background-image: url('../pics/akali.jpg');
   height: 88.8vh;
 }
 #yone{
-  background-image: url('/res/pics/yone.jpg');
+  background-image: url('../pics/yone.jpg');
   height: 100vh;
 }
 #jhin{
-  background-image: url('/res/pics/jhin.jpg');
+  background-image: url('../pics/jhin.jpg');
   height: 88.8vh;
 }
 #ezreal{
-  background-image: url('/res/pics/ezreal.jpg');
+  background-image: url('../pics/ezreal.jpg');
   height: 100vh;
 }
 #morgana{
-  background-image: url('/res/pics/morgana.jpg');
+  background-image: url('../pics/morgana.jpg');
   height: 88.8vh;
 }
 #senna{
-  background-image: url('/res/pics/senna.png');
+  background-image: url('../pics/senna.png');
   height: 100vh;
 }
 #kayn{
-  background-image: url('/res/pics/kayn.jpg');
+  background-image: url('../pics/kayn.jpg');
   height: 100vh;
 }
 #amumu{
-  background-image: url('/res/pics/amumu.jpg');
+  background-image: url('../pics/amumu.jpg');
   height: 88.8vh;
 }
 #contact{
